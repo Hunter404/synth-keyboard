@@ -1,0 +1,53 @@
+{
+  "version": "1",
+  "target": "vsCode",
+  "buildSystem": "makefile",
+  "configurations": [
+    {
+      "name": "default",
+      "guid": "c8c997a3-f872-4836-90ed-b2955f8c4ee0",
+      "setupType": "quick",
+      "boardTxtPath": "C:\\Program Files (x86)\\Arduino\\hardware\\teensy\\avr\\boards.txt",
+      "coreBase": "C:\\Program Files (x86)\\Arduino\\hardware\\teensy\\avr\\cores\\teensy3",
+      "compilerBase": "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\arm",
+      "makefileExtension": null,
+      "copyBoardTxt": false,
+      "copyCore": false,
+      "sharedLibraries": [],
+      "localLibraries": [
+        "Adafruit_NeoTrellis_M4_Library"
+      ],
+      "board": {
+        "name": "Teensy 3.6",
+        "options": {
+          "USB Type": "Serial",
+          "CPU Speed": "180 MHz",
+          "Optimize": "Faster",
+          "Keyboard Layout": "Swedish"
+        }
+      }
+    },
+    {
+      "name": "Testdummy",
+      "guid": "19f0945c-0176-4e3d-a8c9-f044b3790d29",
+      "setupType": "quick",
+      "boardTxtPath": "C:\\Program Files (x86)\\Arduino\\hardware\\teensy\\avr\\boards.txt",
+      "coreBase": "C:\\Program Files (x86)\\Arduino\\hardware\\teensy\\avr\\cores\\teensy3",
+      "compilerBase": "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\arm",
+      "makefileExtension": null,
+      "copyBoardTxt": false,
+      "copyCore": false,
+      "sharedLibraries": [],
+      "localLibraries": [],
+      "board": {
+        "name": "Teensy 3.6",
+        "options": {
+          "USB Type": "Serial",
+          "CPU Speed": "180 MHz",
+          "Optimize": "Faster",
+          "Keyboard Layout": "US English"
+        }
+      }
+    }
+  ]
+}
