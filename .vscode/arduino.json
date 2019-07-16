@@ -1,4 +1,3 @@
 {
-    "sketch": "AnalogReadSerial.ino",
-    "port": "COM3"
+    "port": "COM12"
 }

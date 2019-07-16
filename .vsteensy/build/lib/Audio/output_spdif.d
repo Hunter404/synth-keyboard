@@ -31,6 +31,7 @@
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_flightsim.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_mtp.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_audio.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/AudioStream.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_touch.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_undef.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/WCharacter.h \
@@ -39,4 +40,5 @@
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/IntervalTimer.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_spdif.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/AudioStream.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/DMAChannel.h
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/DMAChannel.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/utility/imxrt_hw.h

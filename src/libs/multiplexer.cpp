@@ -1,16 +1,32 @@
+#ifndef _MULTIPLEXER
+#define _MULTIPLEXER
+
 #include "Arduino.h"
 
 // MUX: Pins
-#define MUX_S0 3
-#define MUX_S1 4
-#define MUX_S2 5
-#define MUX_S3 6
-#define MUX_SIG 28
+#define MUX_EN 41
+#define MUX_S0 51
+#define MUX_S1 52
+#define MUX_S2 40
+#define MUX_S3 53
+#define MUX_SIG 39
 
 namespace Synth {
     class Multiplexer {
-        public: 
-            int readMux(int channel){
+        public:
+            static void setup()
+            {
+                pinMode(MUX_S0, OUTPUT);
+                pinMode(MUX_S1, OUTPUT);
+                pinMode(MUX_S2, OUTPUT);
+                pinMode(MUX_S3, OUTPUT);
+                pinMode(MUX_EN, OUTPUT);
+
+                digitalWrite(MUX_EN, LOW);
+            }
+
+            static int readMux(int channel)
+            {
                 int controlPin[] = {
                     MUX_S0,
                     MUX_S1,
@@ -18,7 +34,7 @@ namespace Synth {
                     MUX_S3
                 };
 
-                int muxChannel[16][4]={
+                int muxChannel[16][4] = {
                     {0,0,0,0}, //channel 0
                     {1,0,0,0}, //channel 1
                     {0,1,0,0}, //channel 2
@@ -37,7 +53,7 @@ namespace Synth {
                     {1,1,1,1}  //channel 15
                 };
 
-                for(int i = 0; i < 4; i ++){
+                for(int i = 0; i < 4; i ++) {
                     digitalWrite(controlPin[i], muxChannel[channel][i]);
                 }
 
@@ -48,3 +64,5 @@ namespace Synth {
             }
     };
 };
+
+#endif

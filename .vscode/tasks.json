@@ -6,7 +6,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "command": "D:/Projects/Synth/make.exe",
+      "command": "${workspaceRoot}\\make.exe",
       "args": [
         "all",
         "-j",
@@ -19,7 +19,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "command": "D:/Projects/Synth/make.exe",
+      "command": "${workspaceRoot}\\make.exe",
       "args": [
         "upload",
         "-j",
@@ -32,7 +32,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "command": "D:/Projects/Synth/make.exe",
+      "command": "${workspaceRoot}\\make.exe",
       "args": [
         "uploadTy",
         "-j",
@@ -45,7 +45,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "command": "D:/Projects/Synth/make.exe",
+      "command": "${workspaceRoot}\\make.exe",
       "args": [
         "uploadCLI",
         "-j",
@@ -58,7 +58,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "command": "D:/Projects/Synth/make.exe",
+      "command": "${workspaceRoot}\\make.exe",
       "args": [
         "clean"
       ]

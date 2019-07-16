@@ -1,8 +1,6 @@
 .vsteensy/build/src/main.o: src/main.cpp \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/Audio.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/DMAChannel.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/kinetis.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/analyze_fft256.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Wire/Wire.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Wire/WireKinetis.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/Arduino.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/WProgram.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/avr/pgmspace.h \
@@ -12,6 +10,7 @@
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/binary.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/core_id.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/core_pins.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/kinetis.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/pins_arduino.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/HardwareSerial.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/Stream.h \
@@ -33,12 +32,29 @@
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_flightsim.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_mtp.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_audio.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/AudioStream.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_touch.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_undef.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/WCharacter.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/elapsedMillis.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/Arduino.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/IntervalTimer.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SPI/SPI.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/DMAChannel.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/EventResponder.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/SD.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/SD_t3.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/SdFat.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/Sd2Card.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/Sd2PinMap.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/SdInfo.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/NXP_SDHC.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/FatStructs.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/Print.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/SdFatUtil.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SerialFlash/SerialFlash.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/Audio.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/analyze_fft256.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/AudioStream.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/arm_math.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/core_cmInstr.h \
@@ -66,8 +82,6 @@
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/effect_delay.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/effect_delay_ext.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/spi_interrupt.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SPI/SPI.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/EventResponder.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/effect_midside.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/effect_reverb.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/effect_freeverb.h \
@@ -80,34 +94,32 @@
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/input_adc.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/input_adcs.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/input_i2s.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/input_i2s2.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/input_i2s_quad.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/input_tdm.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/input_tdm2.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/input_pdm.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/mixer.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_dac.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_dacs.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_i2s.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_i2s2.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_i2s_quad.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_mqs.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_pwm.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_spdif.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_spdif2.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_spdif3.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_pt8211.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_pt8211_2.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_tdm.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_tdm2.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/output_adat.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/play_memory.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/play_queue.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/play_sd_raw.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/SD.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/SD_t3.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/SdFat.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/Sd2Card.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/Sd2PinMap.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/SdInfo.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/FatStructs.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/Print.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/SdFatUtil.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/play_sd_wav.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/play_serialflash_raw.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SerialFlash/SerialFlash.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/record_queue.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/synth_tonesweep.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/synth_sine.h \
@@ -119,6 +131,23 @@
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/synth_simple_drum.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/synth_pwm.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Audio/synth_wavetable.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Wire/Wire.h \
- C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/Wire/WireKinetis.h \
- src/libs/serialport.cpp src/libs/multiplexer.cpp
+ src/io/io.h \
+ C:\Users\frelar\Documents\Arduino\libraries/Adafruit_seesaw_Library/Adafruit_NeoTrellis.h \
+ C:\Users\frelar\Documents\Arduino\libraries/Adafruit_seesaw_Library/Adafruit_seesaw.h \
+ C:\Users\frelar\Documents\Arduino\libraries/Adafruit_seesaw_Library/seesaw_neopixel.h \
+ src/libs/multiplexer.cpp src/io/ioTest.cpp src/io/io.h \
+ src/libs/serialport.cpp src/instruments/Instruments.h \
+ src/instruments/bassoon_samples.h src/instruments/clarinet_samples.h \
+ src/instruments/distortiongt_samples.h src/instruments/epiano_samples.h \
+ src/instruments/flute_samples.h src/instruments/frenchhorn_samples.h \
+ src/instruments/glockenspiel_samples.h \
+ src/instruments/gtfretnoise_samples.h \
+ src/instruments/harmonica_samples.h src/instruments/harp_samples.h \
+ src/instruments/mutedgtr_samples.h src/instruments/nylonstrgtr_samples.h \
+ src/instruments/oboe_samples.h src/instruments/overdrivegt_samples.h \
+ src/instruments/recorder_samples.h \
+ src/instruments/standard_DRUMS_samples.h \
+ src/instruments/steelstrgtr_samples.h src/instruments/strings_samples.h \
+ src/instruments/timpani_samples.h src/instruments/trombone_samples.h \
+ src/instruments/trumpet_samples.h src/instruments/tuba_samples.h \
+ src/instruments/piano_samples.h src/instruments/vibraphone_samples.h

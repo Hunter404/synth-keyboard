@@ -1,3 +1,6 @@
+#ifndef _SERIALPORT
+#define _SERIALPORT
+
 #include "Arduino.h"
 
 #define SERIAL_PORT_BAUD 115200
@@ -24,7 +27,7 @@ namespace Synth {
                     if (spIndex < 80) {
                         char c = Serial.read();
                         spBuffer[spIndex] = c;
-                    
+
                         spIndex++;
                     } else {
                         Serial.println("OVERFLOW");
@@ -75,3 +78,5 @@ namespace Synth {
             }
     };
 };
+
+#endif

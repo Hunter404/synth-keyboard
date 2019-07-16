@@ -31,6 +31,7 @@
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_flightsim.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_mtp.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_audio.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/AudioStream.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_touch.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/usb_undef.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/WCharacter.h \
@@ -43,4 +44,5 @@
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/Sd2Card.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/Sd2PinMap.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/SdInfo.h \
+ C:\PROGRA~2\Arduino\hardware\teensy\avr\libraries/SD/utility/NXP_SDHC.h \
  C:\PROGRA~2\Arduino\hardware\teensy\avr\cores\teensy3/kinetis.h
