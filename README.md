@@ -1,4 +1,4 @@
-# Synth
-Not the android kind
+# Keyboard Synth
 
-Copyright Fredrik "Hunter404" Larsson 2019
+My attempt att making a synth using a Teensy and C++
+Superseeded by another project that sends all values to FruitLoops instead
